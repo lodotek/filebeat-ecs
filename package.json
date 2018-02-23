@@ -1,7 +1,7 @@
 {
   "name": "filebeat-ecs",
   "version": "1.1.1",
-  "description": "Filebeat contatiner suitable for ECS - Built upon official openjdk:8-jre image",
+  "description": "Filebeat container",
   "scripts": {
     "build": "docker build -t lodotek/filebeat-ecs ."
   },
