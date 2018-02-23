@@ -1,7 +1,7 @@
 defaults: &defaults
   working_directory: ~/filebeat-ecs
   docker:
-    - image: circleci/node:6.11.2
+    - image: circleci/node:7.10
 
 version: 2
 jobs:
